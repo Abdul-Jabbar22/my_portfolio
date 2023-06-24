@@ -218,6 +218,16 @@ section {
   z-index: 1;
   overflow: hidden;
 }
+.home .contactME {
+  display: inline-block;
+  position: absolute;
+  right: 0.5rem;
+  padding: 8px;
+  bottom: 40px;
+  margin: 0;
+  cursor: pointer;
+}
+
 .home-sci a::before {
   content: "";
   position: absolute;
@@ -240,6 +250,7 @@ section {
 .home-sci a:hover::before {
   width: 100%;
 }
+/* contact me */
 
 .about {
   display: flex;
