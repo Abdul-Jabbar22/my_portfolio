@@ -233,7 +233,13 @@ section {
   color: transparent;
   -webkit-text-stroke: 0.7px var(--main-color);
 }
-
+@media (max-width: 280px) {
+  .home .contactME {
+    font-size: 14px;
+    padding: 6px;
+    bottom: 40px;
+  }
+}
 .home-sci a::before {
   content: "";
   position: absolute;
